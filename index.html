@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>registration form</title>
+    <link rel="stylesheet" href="register.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" re="stylesheet">
+    <link rel="stylesheet" href="login.html">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Registration-Form</div>
+        <form>
+            <div class="user">
+                <div class="inputbox">
+                    <span class="details">First Name</span>
+                    <input type="text" placeholder="Enter your first name" required>
+
+                </div>
+                <div class="inputbox">
+                    <span class="details">Last Name</span>
+                    <input type="text" placeholder="Enter your last name" required>
+
+                </div>
+                <div class="inputbox">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Enter your email" required>
+
+                </div>
+                <div class="inputbox">
+                    <span class="details">Phone </span>
+                    <input type="number" placeholder="Enter your phonenumber" required>
+
+                </div>
+                <div class="inputbox">
+                    <span class="details"> Password</span>
+                    <input type="password" placeholder="enter password" required>
+
+                </div>
+                <div class="inputbox">
+                    <span class="details">Confirm password</span>
+                    <input type="password" placeholder="confirm password" required>
+
+                </div>
+                <div class="inputbox">
+                    <label for="">Course</label>
+                    <input type="text" placeholder="Course" list="leng" name="drop"/> 
+                    <datalist id="leng">
+                       <option value="B-Tech"></option>
+                       <option value="M-Tech"></option>
+                       <option value="MBA"></option>
+                       <option value="B-Pharmacy"></option>
+                       <option value="Pharmacy"></option>
+                       <option value="Degree"></option>
+                    </datalist>
+
+                </div>
+                <div class="inputbox">
+                    <label for="">Branch</label>
+                     <input type="text" placeholder="Branch" list="leng1" name="dropdown"/> 
+                      <datalist id="leng1">
+                         <option value="Computer Science and Engineering(CSE)"></option>
+                         <option value="Computer Science and Business(CS-BS)"></option>
+                         <option value="Computer Science and Datascience(CS-DS)"></option>
+                         <option value="Computer Science and Information Technology(CS-IT)"></option>
+                         <option value="Artificial Intelligence(AI)"></option>
+                         <option value="Machine Learning(ML)"></option>
+                         <option value="Electronics and Communaction Engineering"></option>
+                         <option value="Electrical and Electronics Engineering"></option>
+                         <option value="Mechanical Engineering"></option>
+                         <option value="Civil"></option>
+                         <option value="Mechanical Engineering"></option>
+                      </datalist>
+                </div>
+            </div>
+            <div class="gender-details">
+                <span class="gender-title">Gender :</span>
+                <div class="cat">
+                    
+                    <label  class="radio"> <input class="radio1" type="radio" name="gender" value="male"> Male
+                    </label>
+                    <label class="radio">
+
+                    <input  class="radio2" type="radio" name="gender" value="female"> Female</label>
+                </div>
+            </div>
+            <a href="#"><input type="submit" class="btn" value="Submit"></a>
+        </form>
+    </div>
+
+</body>
+
+</html>
